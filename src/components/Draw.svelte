@@ -4,7 +4,7 @@
     export let findMe
     //set my drawIndex to the next player or if this is out of bounds, the first 
     let nextIndex = game.players.length == findMe+1 ? 0 : findMe+1
-    let counter = 3
+    let counter = 40
     let t = setInterval(() => {
         counter--
         if(counter == 0) clearInterval(t)
