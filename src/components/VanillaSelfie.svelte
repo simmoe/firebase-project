@@ -7,7 +7,7 @@
 
     let video, canvas, photo, height
     let width = 320
-    let countdown = 3
+    let countdown = 10
 
     const storage = getStorage()
     const storageRef = ref(storage, 'selfies/'+id+'.png')
